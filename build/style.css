@@ -80,7 +80,7 @@ header .navbar-collapse {
 
 .first-screen {
   position: relative;
-  margin-bottom: 96px;
+  margin-bottom: 98px;
 }
 .first-screen .first-screen-nav {
   display: flex;
@@ -103,9 +103,13 @@ header .navbar-collapse {
   transform: translate(-50%, 0);
   bottom: 42px;
 }
+.first-screen-slider .container {
+  padding-bottom: 62px;
+}
 
 .first-screen-title {
   font-size: 56px;
+  font-style: normal;
   font-weight: 700;
   line-height: 126%;
   text-transform: uppercase;
@@ -114,12 +118,16 @@ header .navbar-collapse {
 }
 
 .first-screen-subtitle {
-  height: 54px;
   font-size: 20px;
+  font-style: normal;
   font-weight: 300;
   line-height: 135.5%;
   max-width: 345px;
   margin-bottom: 37px;
+}
+
+.first-screen-subtitle.title {
+  max-width: 446px;
 }
 
 .calculation {
@@ -540,8 +548,8 @@ section.container-fluid:before {
   content: "";
   border-radius: 20px;
   position: absolute;
-  left: 42px;
-  right: 42px;
+  left: 15px;
+  right: 15px;
   top: 0;
   height: 100%;
   background-color: #363A4D;
