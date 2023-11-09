@@ -270,6 +270,12 @@ header .navbar-collapse {
   background-color: #E58D35;
 }
 
+.card {
+  border: none;
+  border-radius: 20px;
+  background: #363a4d;
+}
+
 footer {
   height: 100px;
   background: #89C249;
