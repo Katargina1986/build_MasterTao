@@ -243,6 +243,7 @@ header .navbar-collapse {
 .advantage {
   text-align: center;
   margin-bottom: 48px;
+  max-width: 267px;
 }
 .advantage__img-box {
   width: 113px;
@@ -268,6 +269,88 @@ header .navbar-collapse {
 
 .container .template-title:after {
   background-color: #E58D35;
+}
+
+.template-slider .slick-list {
+  margin: 0 -15px;
+}
+
+.delivery-slider .slick-arrow {
+  position: absolute;
+}
+.delivery-slider .slick-arrow.slick-prev {
+  left: -115px;
+  top: 50%;
+  transform: translate(0, -50%) rotate(180deg);
+}
+.delivery-slider .slick-arrow.slick-next {
+  top: 50%;
+  right: -115px;
+  transform: translate(0, -50%);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  background: #363A4D;
+  overflow: hidden;
+  margin: 0 15px;
+  padding: 0 20px 27px;
+  align-items: center;
+  max-width: 360px;
+  box-shadow: 5px 15px 40px 0px rgba(30, 35, 66, 0.15);
+}
+.card-image {
+  margin: 0 -20px 27px;
+  width: calc(100% + 40px);
+}
+.card-image img {
+  height: 235px;
+  object-fit: cover;
+  object-position: center;
+}
+.card-title {
+  margin-bottom: 12px;
+  line-height: 124.5%;
+  text-align: center;
+}
+.card-attr {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+.card-attr-item {
+  display: flex;
+}
+.card-attr-item img {
+  max-width: 24px;
+  margin-right: 8px;
+}
+.card-price {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.card-price span {
+  font-size: 22px;
+  line-height: 124.5%;
+}
+.card-price span-first-child {
+  color: #a3a3a3;
+}
+.card-price strong {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 124.5%;
+}
+.card .card-button-row {
+  display: flex;
+  gap: 14px;
+}
+.card .card-button-row .btn {
+  width: 153px;
+  justify-content: center;
+  padding: 13px 10px;
 }
 
 footer {
@@ -299,6 +382,20 @@ footer {
   .calculation .calculation-title::after {
     margin-left: 20px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .delivery-slider .slick-arrow.slick-next {
+    right: -92px;
+  }
+  .delivery-slider .slick-arrow.slick-prev {
+    left: -92px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .template-slider {
+    max-width: 749px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -425,6 +522,19 @@ footer {
     top: 0;
   }
 }
+.delivery-slider {
+  max-width: 360px;
+}
+.delivery-slider .slick-list {
+  margin: 0 -15px 32px;
+}
+
+.card-button-row .btn {
+  width: 138px;
+  justify-content: center;
+  padding: 13px 5px;
+}
+
 ::selection {
   color: #fff;
   background-color: #89C249;
