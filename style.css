@@ -271,10 +271,9 @@ header .navbar-collapse {
   background-color: #E58D35;
 }
 
-.template-slider .slick-list {
+.delivery-slider .slick-list {
   margin: 0 -15px;
 }
-
 .delivery-slider .slick-arrow {
   position: absolute;
 }
@@ -393,7 +392,7 @@ footer {
   }
 }
 @media screen and (max-width: 1350px) {
-  .template-slider {
+  .delivery-slider {
     max-width: 749px;
     margin: 0 auto;
   }
@@ -521,9 +520,6 @@ footer {
   #file-name {
     top: 0;
   }
-}
-.delivery-slider {
-  max-width: 360px;
 }
 .delivery-slider .slick-list {
   margin: 0 -15px 32px;
