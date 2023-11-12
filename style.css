@@ -352,6 +352,43 @@ header .navbar-collapse {
   padding: 13px 10px;
 }
 
+.services .delivery-slider .card {
+  align-items: flex-start;
+  height: 482px;
+}
+.services .delivery-slider .card:before {
+  z-index: 1;
+  content: "";
+  display: inline-block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(4, 5, 17, 0.9098039216) 0%, rgba(88, 88, 88, 0) 100%);
+}
+.services .delivery-slider .card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.services .delivery-slider .card-title {
+  margin-bottom: 12px;
+  line-height: 124.5%;
+  text-align: center;
+  margin-top: auto;
+}
+.services .delivery-slider .card-descr {
+  margin-bottom: 14px;
+}
+.services .delivery-slider .card-title,
+.services .delivery-slider .card-descr,
+.services .delivery-slider .card-button-row {
+  z-index: 1;
+}
+
 footer {
   height: 100px;
   background: #89C249;
