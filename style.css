@@ -547,7 +547,8 @@ footer {
 .delivery-slider .slick-list {
   margin: 0 -15px 32px;
 }
-.delivery-slider .card-button-row .btn {
+
+.card-button-row .btn {
   width: 138px;
   justify-content: center;
   padding: 13px 4px;
