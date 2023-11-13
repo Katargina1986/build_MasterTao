@@ -243,7 +243,7 @@ header .navbar-collapse {
 .advantage {
   text-align: center;
   margin-bottom: 48px;
-  max-width: 267px;
+  max-width: 318px;
 }
 .advantage__img-box {
   width: 113px;
@@ -265,10 +265,6 @@ header .navbar-collapse {
   font-weight: 400;
   max-width: 160px;
   margin: 0 auto;
-}
-
-.container .template-title:after {
-  background-color: #E58D35;
 }
 
 .delivery-slider .slick-list {
@@ -327,7 +323,7 @@ header .navbar-collapse {
   margin-right: 8px;
 }
 .card-price {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   text-align: center;
 }
 .card-price span {
@@ -352,11 +348,11 @@ header .navbar-collapse {
   padding: 13px 10px;
 }
 
-.services .delivery-slider .card {
+.services .card {
   align-items: flex-start;
   height: 482px;
 }
-.services .delivery-slider .card:before {
+.services .card:before {
   z-index: 1;
   content: "";
   display: inline-block;
@@ -367,26 +363,19 @@ header .navbar-collapse {
   position: absolute;
   background: linear-gradient(0deg, rgba(4, 5, 17, 0.9098039216) 0%, rgba(88, 88, 88, 0) 100%);
 }
-.services .delivery-slider .card-image img {
+.services .card-image img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.services .delivery-slider .card-title {
-  margin-bottom: 12px;
-  line-height: 124.5%;
-  text-align: center;
-  margin-top: auto;
+
+.about .template-title::after {
+  left: 45px;
 }
-.services .delivery-slider .card-descr {
-  margin-bottom: 14px;
-}
-.services .delivery-slider .card-title,
-.services .delivery-slider .card-descr,
-.services .delivery-slider .card-button-row {
-  z-index: 1;
+.about .title-about {
+  text-align: left;
 }
 
 footer {
@@ -441,20 +430,20 @@ footer {
   }
 }
 @media screen and (max-width: 991px) {
+  .advantages.container-fluid {
+    padding: 55px 20px 55px;
+  }
+  .advantages.container-fluid:before {
+    border-radius: 0;
+    left: 0;
+    right: 0;
+  }
   .container {
     padding-right: 20px;
     padding-left: 20px;
   }
   .container-xxl {
     padding: 0;
-  }
-  section.container-fluid {
-    padding: 55px 20px 60px;
-  }
-  section.container-fluid:before {
-    border-radius: 0;
-    left: 0;
-    right: 0;
   }
   a.navbar-brand {
     width: 126px;
@@ -540,9 +529,6 @@ footer {
     margin-bottom: 7px;
     padding-top: 4px;
   }
-  .calculation-form label[for=fileInput] {
-    margin-top: 31px;
-  }
   .calculation-form .btn {
     max-width: 100%;
     width: 100%;
@@ -561,11 +547,14 @@ footer {
 .delivery-slider .slick-list {
   margin: 0 -15px 32px;
 }
-
-.card-button-row .btn {
+.delivery-slider .card-button-row .btn {
   width: 138px;
   justify-content: center;
-  padding: 13px 5px;
+  padding: 13px 4px;
+}
+
+section.container-fluid:nth-child(odd) .template-title:after {
+  background-color: #E58D35;
 }
 
 ::selection {
@@ -684,7 +673,7 @@ section:last-of-type {
   margin-bottom: 56px;
 }
 section.container-fluid {
-  padding: 90px 85px 90px;
+  padding: 55px 85px 55px;
   position: relative;
 }
 section.container-fluid:before {
@@ -697,6 +686,9 @@ section.container-fluid:before {
   height: 100%;
   background-color: #363A4D;
   z-index: -1;
+}
+section:nth-child(even) .template-title:after {
+  background-color: #89C249;
 }
 
 .btn {
