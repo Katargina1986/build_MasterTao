@@ -394,6 +394,25 @@ header .navbar-collapse {
 .about .title-about {
   text-align: left;
 }
+.about .img-box {
+  padding: 0 20px;
+  margin-top: -140px;
+}
+.about .img-box-img {
+  max-width: 550px;
+  max-height: 581px;
+}
+.about-descr p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 170%;
+  width: 555px;
+}
+.about-descr span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
+}
 
 footer {
   height: 100px;
@@ -447,35 +466,21 @@ footer {
   }
 }
 @media screen and (max-width: 991px) {
-  .advantages.container-fluid {
+  .advantages.container-fluid,
+  .services.container-fluid {
     padding: 55px 20px 55px;
   }
-  .advantages.container-fluid:before {
-    border-radius: 0;
-    left: 0;
-    right: 0;
-  }
-  .advantages-slider {
-    max-width: 360px;
-  }
-  .services.container-fluid {
-    padding: 45px 20px 45px;
-  }
+  .advantages.container-fluid:before,
   .services.container-fluid:before {
     border-radius: 0;
     left: 0;
     right: 0;
   }
-  .services.container-fluid .delivery-slider {
+  .advantages-slider,
+  .delivery-slider {
     max-width: 360px;
   }
-  .services.container-fluid .slick-list {
-    margin: 0 -15px 32px;
-  }
-  .delivery .delivery-slider {
-    max-width: 360px;
-  }
-  .delivery .slick-list {
+  .delivery-slider .slick-list {
     margin: 0 -15px 32px;
   }
   .container {
@@ -590,6 +595,36 @@ footer {
   }
   section.container-fluid:nth-child(odd) .template-title:after {
     background-color: #E58D35;
+  }
+  .about {
+    margin-bottom: 45px;
+  }
+  .about .template-title {
+    margin-bottom: 26px;
+    text-align: center;
+  }
+  .about .template-title:after {
+    left: 170px;
+  }
+  .about .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  .about .img-box img {
+    max-width: 350px;
+    margin-top: 160px;
+  }
+  .about-descr p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 149.5%;
+    width: 335px;
+  }
+  .about-descr span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 149.5%;
   }
 }
 ::selection {
