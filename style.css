@@ -417,6 +417,10 @@ header .navbar-collapse {
 .questions {
   margin-bottom: 100px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 .questions .col-lg-8 {
   max-width: 750px;
 }
@@ -425,12 +429,21 @@ header .navbar-collapse {
   width: 100%;
   padding: 0 auto;
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 .questions .template-title {
   margin-bottom: 49px;
 }
 .questions .questions-form {
   background-color: #363a4d;
   filter: drop-shadow(5px 15px 40px rgba(11, 24, 97, 0.32));
+<<<<<<< HEAD
+  padding: 38px 30px;
+=======
+<<<<<<< HEAD
   padding: 38px 30px;
   border-radius: 20px;
   box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
@@ -440,6 +453,21 @@ header .navbar-collapse {
   font-weight: 700;
   line-height: 126%;
   margin: 0 auto;
+=======
+  padding: 38px 40px;
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
+  border-radius: 20px;
+  box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+}
+.questions .questions-form .questions-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 126%;
+<<<<<<< HEAD
+  margin: 0 auto;
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
   margin-bottom: 7px;
 }
 .questions .questions-form .questions-info {
@@ -476,13 +504,26 @@ header .navbar-collapse {
 .questions .questions-form .questions-column .input-box input:focus-visible {
   outline: 1px solid orange;
 }
+<<<<<<< HEAD
 .questions .questions-form .questions-column .btn {
   margin-top: 12px;
 }
+=======
+<<<<<<< HEAD
+.questions .questions-form .questions-column .btn {
+  margin-top: 12px;
+}
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 .questions .questions-form .questions-column .btn img {
   margin-left: auto;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 .cooperation {
   position: relative;
 }
@@ -514,17 +555,30 @@ header .navbar-collapse {
   max-width: 520px;
   margin-bottom: 42px;
 }
+<<<<<<< HEAD
 .cooperation .img-box {
   display: flex;
   justify-content: center;
 }
 .cooperation .img-box img {
+=======
+.cooperation .image-box {
+  display: flex;
+  justify-content: center;
+}
+.cooperation .image-box img {
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
   max-height: 406px;
   object-fit: cover;
   object-position: center;
   border-radius: 20px;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 footer {
   padding-bottom: 59px;
 }
@@ -545,6 +599,7 @@ footer .footer-logo .row {
   justify-content: space-between;
 }
 footer .footer-list {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -586,6 +641,13 @@ footer .nav-footer .icon-git {
 }
 footer .nav-footer .icon-telegram {
   background-image: url(/assets/img/icon-telegram.png);
+=======
+  max-width: 300px;
+  list-style-type: none;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
 }
 
 @media (min-width: 992px) {
@@ -810,7 +872,14 @@ footer .nav-footer .icon-telegram {
     gap: 28px;
   }
   .questions .questions-form {
+<<<<<<< HEAD
     width: 335px;
+=======
+<<<<<<< HEAD
+    width: 335px;
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
+>>>>>>> dea414dd63de8d16fb4126337708200ed79b18c0
     padding: 38px 20px;
   }
   .questions .questions-title {
