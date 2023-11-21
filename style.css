@@ -417,6 +417,7 @@ header .navbar-collapse {
 .questions {
   margin-bottom: 100px;
 }
+<<<<<<< HEAD
 .questions .col-lg-8 {
   max-width: 750px;
 }
@@ -425,12 +426,15 @@ header .navbar-collapse {
   width: 100%;
   padding: 0 auto;
 }
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
 .questions .template-title {
   margin-bottom: 49px;
 }
 .questions .questions-form {
   background-color: #363a4d;
   filter: drop-shadow(5px 15px 40px rgba(11, 24, 97, 0.32));
+<<<<<<< HEAD
   padding: 38px 30px;
   border-radius: 20px;
   box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
@@ -440,6 +444,16 @@ header .navbar-collapse {
   font-weight: 700;
   line-height: 126%;
   margin: 0 auto;
+=======
+  padding: 38px 40px;
+  border-radius: 20px;
+  box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+}
+.questions .questions-form .questions-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 126%;
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
   margin-bottom: 7px;
 }
 .questions .questions-form .questions-info {
@@ -476,13 +490,17 @@ header .navbar-collapse {
 .questions .questions-form .questions-column .input-box input:focus-visible {
   outline: 1px solid orange;
 }
+<<<<<<< HEAD
 .questions .questions-form .questions-column .btn {
   margin-top: 12px;
 }
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
 .questions .questions-form .questions-column .btn img {
   margin-left: auto;
 }
 
+<<<<<<< HEAD
 .cooperation {
   position: relative;
 }
@@ -525,6 +543,8 @@ header .navbar-collapse {
   border-radius: 20px;
 }
 
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
 footer {
   padding-bottom: 59px;
 }
@@ -715,7 +735,7 @@ footer .footer-list {
     padding: 19.6px 15px 19.6px 29px;
   }
   .calculation-form .btn .icon {
-    margin: 0 -14px 0 70px;
+    margin: 0 -14px 0 110px;
   }
   .calculation__img {
     display: none;
@@ -765,7 +785,10 @@ footer .footer-list {
     gap: 28px;
   }
   .questions .questions-form {
+<<<<<<< HEAD
     width: 335px;
+=======
+>>>>>>> 56f32b50d6b51d235b98343406f3c4f621287e22
     padding: 38px 20px;
     margin: 0 auto;
   }
