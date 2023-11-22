@@ -270,18 +270,18 @@ header .navbar-collapse {
   margin: 0 auto 48px;
 }
 
-.delivery-slider .slick-list {
+.template-slider .slick-list {
   margin: 0 -15px;
 }
-.delivery-slider .slick-arrow {
+.template-slider .slick-arrow {
   position: absolute;
 }
-.delivery-slider .slick-arrow.slick-prev {
+.template-slider .slick-arrow.slick-prev {
   left: -115px;
   top: 50%;
   transform: translate(0, -50%) rotate(180deg);
 }
-.delivery-slider .slick-arrow.slick-next {
+.template-slider .slick-arrow.slick-next {
   top: 50%;
   right: -115px;
   transform: translate(0, -50%);
@@ -351,11 +351,11 @@ header .navbar-collapse {
   padding: 13px 10px;
 }
 
-.services .delivery-slider .card {
+.services .template-slider .card {
   align-items: flex-start;
   height: 482px;
 }
-.services .delivery-slider .card:before {
+.services .template-slider .card:before {
   z-index: 1;
   content: "";
   display: inline-block;
@@ -366,25 +366,25 @@ header .navbar-collapse {
   position: absolute;
   background: linear-gradient(0deg, rgba(4, 5, 17, 0.9098039216) 0%, rgba(88, 88, 88, 0) 100%);
 }
-.services .delivery-slider .card-image img {
+.services .template-slider .card-image img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.services .delivery-slider .card-title {
+.services .template-slider .card-title {
   margin-bottom: 12px;
   line-height: 124.5%;
   text-align: center;
   margin-top: auto;
 }
-.services .delivery-slider .card-descr {
+.services .template-slider .card-descr {
   margin-bottom: 14px;
 }
-.services .delivery-slider .card-title,
-.services .delivery-slider .card-descr,
-.services .delivery-slider .card-button-row {
+.services .template-slider .card-title,
+.services .template-slider .card-descr,
+.services .template-slider .card-button-row {
   z-index: 1;
 }
 
@@ -423,7 +423,6 @@ header .navbar-collapse {
 .questions .col-lg-4 {
   max-width: 390px;
   width: 100%;
-  padding: 0 auto;
 }
 .questions .template-title {
   margin-bottom: 49px;
@@ -452,7 +451,6 @@ header .navbar-collapse {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 10px;
 }
 .questions .questions-form .questions-column .input-box {
   display: flex;
