@@ -423,6 +423,7 @@ header .navbar-collapse {
 .questions .col-lg-4 {
   max-width: 390px;
   width: 100%;
+  padding: 0;
 }
 .questions .template-title {
   margin-bottom: 49px;
@@ -588,8 +589,6 @@ footer .nav-footer .icon-git {
 }
 footer .nav-footer .icon-telegram {
   background-image: url(/assets/img/icon-telegram.png);
-<<<<<<< HEAD
-=======
 }
 footer .footer-links {
   max-width: 810px;
@@ -617,7 +616,6 @@ footer .footer-links .footer-info a {
 }
 footer .footer-links .footer-info a:hover {
   color: #89C249;
->>>>>>> 6d5e69e5735282369acb9a44517718c56d507e6b
 }
 
 @media (min-width: 992px) {
@@ -646,15 +644,15 @@ footer .footer-links .footer-info a:hover {
   }
 }
 @media screen and (max-width: 1399px) {
-  .delivery-slider .slick-arrow.slick-next {
+  .template-slider .slick-arrow.slick-next {
     right: -92px;
   }
-  .delivery-slider .slick-arrow.slick-prev {
+  .template-slider .slick-arrow.slick-prev {
     left: -92px;
   }
 }
 @media screen and (max-width: 1350px) {
-  .delivery-slider {
+  .template-slider {
     max-width: 749px;
     margin: 0 auto;
   }
@@ -677,13 +675,13 @@ footer .footer-links .footer-info a:hover {
     right: 0;
   }
   .advantages-slider,
-  .delivery-slider {
+  .template-slider {
     max-width: 360px;
   }
-  .delivery-slider .slick-list {
+  .template-slider .slick-list {
     margin: 0 -15px 32px;
   }
-  .services .delivery-slider .card {
+  .services .template-slider .card {
     margin: 0 auto;
   }
   .container {
@@ -841,11 +839,7 @@ footer .footer-links .footer-info a:hover {
   .questions .row {
     gap: 28px;
   }
-<<<<<<< HEAD
-  .questions .questions-form {
-=======
   .questions-form {
->>>>>>> 6d5e69e5735282369acb9a44517718c56d507e6b
     width: 335px;
     padding: 38px 20px;
   }
